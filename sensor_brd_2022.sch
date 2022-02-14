@@ -57,7 +57,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -741,7 +741,7 @@ Source: &lt;a href="https://www.mouser.de/datasheet/2/609/ADP3301-878912.pdf"&gt
 </deviceset>
 <deviceset name="24AA256-I_MF" prefix="IC">
 <description>&lt;b&gt;256K 32Kx8 1.8V Ser. EEPROM,24AA256-I/MF&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/24AA256-I_MF.pdf"&gt; Datasheet &lt;/a&gt;</description>
+Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20001203U.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="24AA256-I_MF" x="0" y="0"/>
 </gates>
@@ -765,7 +765,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/24AA256-I_MF.
 <attribute name="MANUFACTURER_NAME" value="Microchip" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="24AA256-I/MF" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="579-24AA256-I/MF" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=579-24AA256-I%2FMF" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/24AA256-I-MF?qs=Sez7gRs8XSWcP7qgmBnMNQ%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6948,19 +6948,19 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="U1" library="SamacSys_Parts" deviceset="AD7730BR" device=""/>
 <part name="U2" library="SamacSys_Parts" deviceset="ADP3301ARZ-5" device=""/>
-<part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="10"/>
-<part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="100"/>
-<part name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="1"/>
-<part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="33"/>
-<part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="33"/>
-<part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="33"/>
-<part name="R7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1"/>
-<part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1"/>
+<part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10"/>
+<part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="100"/>
+<part name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="1"/>
+<part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="33"/>
+<part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="33"/>
+<part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="33"/>
+<part name="R7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="4.7k"/>
+<part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="4.7k"/>
 <part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:6240397/1" value="0.01uF"/>
 <part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:6240397/1" value="0.1uF"/>
 <part name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:6240397/1" value="0.1uF"/>
 <part name="C5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:6240397/1" value="0.01uF"/>
-<part name="C6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1210" package3d_urn="urn:adsk.eagle:package:6240334/1"/>
+<part name="C6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1210" package3d_urn="urn:adsk.eagle:package:6240334/1" value="0.47uF"/>
 <part name="C7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C2012" package3d_urn="urn:adsk.eagle:package:6240329/1" value="10uF"/>
 <part name="C8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C2012" package3d_urn="urn:adsk.eagle:package:6240329/1" value="10uF"/>
 <part name="C9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C2012" package3d_urn="urn:adsk.eagle:package:6240329/1" value="10uF"/>
@@ -6968,7 +6968,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U3" library="SamacSys_Parts" deviceset="24AA256-I_MF" device="">
 <attribute name="MANUFACTURER_PART_NUMBER" value="24LC256-I/MF"/>
 </part>
-<part name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:6240397/1"/>
+<part name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" package3d_urn="urn:adsk.eagle:package:6240397/1" value="0.01uF"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="">
@@ -7453,19 +7453,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="40.64" y1="76.2" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="73.66" y1="144.78" x2="81.28" y2="144.78" width="0.1524" layer="91"/>
-<label x="78.74" y="144.78" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="6"/>
-<wire x1="73.66" y1="165.1" x2="81.28" y2="165.1" width="0.1524" layer="91"/>
-<label x="78.74" y="165.1" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-<segment>
 <pinref part="J4" gate="G$1" pin="4"/>
 <wire x1="58.42" y1="121.92" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
 <label x="53.34" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="170.18" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
+<label x="48.26" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="147.32" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
+<label x="48.26" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S-" class="0">
@@ -7483,14 +7483,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="53.34" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="5"/>
-<wire x1="73.66" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
-<label x="78.74" y="167.64" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="167.64" x2="45.72" y2="167.64" width="0.1524" layer="91"/>
+<label x="48.26" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="73.66" y1="147.32" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
-<label x="78.74" y="147.32" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="144.78" x2="45.72" y2="144.78" width="0.1524" layer="91"/>
+<label x="48.26" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -7517,24 +7517,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="132.08" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="170.18" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
-<label x="48.26" y="170.18" size="1.778" layer="95"/>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="127" x2="50.8" y2="127" width="0.1524" layer="91"/>
+<label x="53.34" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="4"/>
+<wire x1="73.66" y1="144.78" x2="81.28" y2="144.78" width="0.1524" layer="91"/>
+<label x="78.74" y="144.78" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="6"/>
+<wire x1="73.66" y1="165.1" x2="81.28" y2="165.1" width="0.1524" layer="91"/>
+<label x="78.74" y="165.1" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="73.66" y1="170.18" x2="81.28" y2="170.18" width="0.1524" layer="91"/>
 <label x="78.74" y="170.18" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="144.78" x2="45.72" y2="144.78" width="0.1524" layer="91"/>
-<label x="48.26" y="144.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="127" x2="50.8" y2="127" width="0.1524" layer="91"/>
-<label x="53.34" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="E-" class="0">
@@ -7551,9 +7551,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="132.08" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="167.64" x2="45.72" y2="167.64" width="0.1524" layer="91"/>
-<label x="48.26" y="167.64" size="1.778" layer="95"/>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="129.54" x2="50.8" y2="129.54" width="0.1524" layer="91"/>
+<label x="53.34" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="5"/>
+<wire x1="73.66" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
+<label x="78.74" y="167.64" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="3"/>
@@ -7561,14 +7566,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="48.26" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="147.32" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
-<label x="48.26" y="147.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="129.54" x2="50.8" y2="129.54" width="0.1524" layer="91"/>
-<label x="53.34" y="129.54" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="3"/>
+<wire x1="73.66" y1="147.32" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
+<label x="78.74" y="147.32" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
