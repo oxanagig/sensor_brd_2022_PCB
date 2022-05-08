@@ -7680,12 +7680,14 @@ In this library the device names are the same as the pin names of the symbols, t
 </sheet>
 </sheets>
 <errors>
+<approved hash="102,1,213.36,81.28,AGND,DGND,,,,"/>
 <approved hash="102,1,215.9,139.7,AGND,DGND,,,,"/>
 <approved hash="102,1,170.18,134.62,AGND,DGND,,,,"/>
 <approved hash="102,1,144.78,76.2,AGND,E-,,,,"/>
 <approved hash="201,1,144.78,76.2,AGND,DGND\, AGND\, E-,,,,"/>
 <approved hash="201,1,170.18,134.62,AGND,DGND\, AGND\, E-,,,,"/>
 <approved hash="201,1,215.9,139.7,AGND,DGND\, AGND\, E-,,,,"/>
+<approved hash="201,1,213.36,81.28,AGND,DGND\, AGND\, E-,,,,"/>
 <approved hash="113,1,124.356,92.606,FRAME1,,,,,"/>
 </errors>
 </schematic>
